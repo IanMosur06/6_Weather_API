@@ -23,19 +23,18 @@ While making this project I learned how to:
 
 ### Link
 
-To see the application in action navigate to [https://mateo-wallace.github.io/M6-Weather-Dashboard/](https://mateo-wallace.github.io/M6-Weather-Dashboard/)
+- 
 
 ### Screenshot
 
-![screenshot of weather boy application](./assets/images/deploymentcapture.png)
+![screenshot of weather tracker](./Assets/images/Webpage.PNG)
 
 ## Features
 
 - Search a city and relevant weather data is printed to webpage.
-- Click on Header Icon in order to refresh page. It bounces on hover.
-- Responsive page design. When screen is shrunk the app readjusts for mobile.
-- When unknown city is input an alert pops up.
-- When Clear button is pressed, the local storage is cleared removing search history buttons.
+- This page is responsive. 
+- Notifies user when a city it doesn't know appears.
+- The local saved storage is cleared when the button clear is clicked
 
 ## Assignment Instructions
 
@@ -61,15 +60,9 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 
-### Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./assets/images/06-server-side-apis-homework-demo.png)
-
 ## Credits
 
-OpenWeatherMap.org. (n.d.). 5 Day Weather Forecast. OpenWeatherMap. Retrieved October 14, 2022, from https://openweathermap.org/forecast5 
+https://openweathermap.org/forecast5 
 
 ## License
 
