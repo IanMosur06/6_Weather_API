@@ -3,8 +3,8 @@
 ## Description
 
 This application uses JavaScript to display the weather in a selected city. When the user types in a city the weather for today and 5 days in the future will appear. The search is added to local storage and a button with all previously searched items will appear. It makes use of 2 API's in order to collect the weather data.
-While making this project I learned how to:
 
+While making this project I learned how to:
 - Fetch API's and pull down relevant data
 - Work with appending multiple values to a page
 - Create, append, and add inner text to an element using JavaScript
@@ -19,11 +19,11 @@ While making this project I learned how to:
 - [Credits](#credits)
 - [License](#license)
 
-## Deployment
 
 ### Link
 
-- 
+- My GitHub profile: https://github.com/IanMosur06/challenge_6_Weather_API
+- Webpages live server: https://ianmosur06.github.io/challenge_6_Weather_API/
 
 ### Screenshot
 
@@ -36,7 +36,6 @@ While making this project I learned how to:
 - Notifies user when a city it doesn't know appears.
 - The local saved storage is cleared when the button clear is clicked
 
-## Assignment Instructions
 
 ### User Story
 
