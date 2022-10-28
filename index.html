@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">    
+    <script src="https://kit.fontawesome.com/b84e779c40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Assets/css/styles.css" />
+    <title>Weather API</title>
+</head>
+
+<body>
+    <header class="navbar background container-fluid justify-content-center pt-3">
+        <h1 class="app-title text-white"><a href="./index.html" class="text-reset">
+        </a> Weather Tracker</h1>
+    </header>
+
+
+    <main class="d-flex justify-space-between query row justify-content-evenly w-100 m-auto">
+        <div class="col-12 col-md-4">
+
+            <!-- Search for City -->
+            <div class="card m-1">
+                <h3 class="card-header fw-bold">Search City:</h3>
+                <form class="card-body row justify-content-evenly w-100 m-auto">
+                    <input id="search-input" type="text" autofocus="true" class="form-input col-5 col-md-11 m-1" />
+                    <button id="search-submit" type="submit" class="btn btn-primary col-5 col-md-11 m-1">Search</button>
+                    <button id="clear-history" type="submit" class="btn btn-primary col-5 col-md-11 m-1">Clear</button>
+                </form>
+            </div>
+
+            <!-- Saved searches -->
+            <div class="card border-light m-1">
+                <div id='saved-search' class="card-body row justify-content-evenly w-100 m-auto">
+                </div>
+            </div>
+        </div>
+
+        <!-- Weather Information -->
+        <div class="col-12 col-md-7">
+
+            <!-- present forecast -->
+            <div id="todays-forecast" class="card m-1">
+            </div>
+
+            <!-- 5 day forecast -->
+            <div id="5-day-forecast" class="card card-body border-light m-1">
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

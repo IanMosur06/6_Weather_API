@@ -1,0 +1,15 @@
+
+
+.background {
+    background-color: #0d6efd;
+}
+
+.query {
+    flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+    .query {
+        flex-direction: column;
+    }
+}
